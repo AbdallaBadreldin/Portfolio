@@ -36,8 +36,37 @@ padding-right: 100px;
   /* justify-content: space-evenly; */
   text-align: center;
   padding: 20px 0;
-  font-size: 30px;
 }
+
+.contact_container {
+  display: grid;
+  grid-template-columns:  auto auto;
+  align-self: auto auto ;
+  gap: 10px;
+  background-color: #f0f0f6;
+  padding: 10px;
+}
+
+.contact_item {
+  background-color: rgb(255, 255, 255);
+  /* justify-content: space-evenly; */
+  text-align: center;
+  padding: 20px 0;
+}
+
+.item1{
+  background-color: rgb(255, 255, 255);
+  /* justify-content: space-evenly; */
+  text-align: start;
+  padding: 20px 0;
+}
+.item2{
+  background-color: rgb(255, 255, 255);
+  /* justify-content: space-evenly; */
+  text-align: end;
+  padding: 20px 0;
+}
+
 
   </style>
   <body style="background-color: #f0f0f6;">
@@ -107,6 +136,11 @@ padding-right: 100px;
    do amet sint. Velit officia consequat duis enim velit mollit. <br> lorem ipsum</p>
   </section>
 
+  <!-- Leave us + Contatct information -->
+  <section class="contact_container" style="background-color: #f0f0f6;">
+    <div class="contact_item item1">1</div>
+    <div class="contact_item item2">2</div>
+  </section>
   
 </body>
 </html>

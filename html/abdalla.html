@@ -1,70 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
   </head>
-  <style>
-    .container {
-      background-color: #ffffff;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
 
-    .image {
-      max-width: 100%;
-      max-height: 100%;
-      padding-left: 100px;
-    }
 
-    .text {
-      font-size: 20px;
-      padding-right: 100px;
-    }
-
-    .grid-container {
-      display: grid;
-      grid-template-columns: auto auto auto;
-      align-self: auto auto auto;
-      gap: 20px;
-      background-color: #f0f0f6;
-      padding-left: 200px;
-      padding-right: 200px;
-    }
-
-    .grid-container > div {
-      background-color: rgb(255, 255, 255);
-      text-align: center;
-      padding: 20px 0;
-    }
-
-    .contact_container {
-      display: grid;
-      grid-template-columns: auto auto;
-      align-self: auto auto;
-      gap: 10px;
-      background-color: #f0f0f6;
-      padding: 10px;
-    }
-
-    .contact_item {
-      background-color: rgb(255, 255, 255);
-      padding: 20px 0;
-    }
-
-    .item1 {
-      background-color: rgb(255, 255, 255);
-      /* justify-content: space-evenly; */
-      text-align: start;
-      padding: 20px 0;
-    }
-    .item2 {
-      background-color: rgb(255, 255, 255);
-      /* justify-content: space-evenly; */
-      text-align: end;
-      padding: 20px 0;
-    }
-  </style>
   <body style="background-color: #f0f0f6">
     <div class="container">
       <div class="text">
@@ -76,7 +17,7 @@
         </h1>
         <p>Welcome to my portifilio</p>
         <br />
-        <input type="button" value="HIRE ->" />
+        <input id="hire" type="button" value="HIRE ME ->" />
       </div>
 
       <div class="image">
@@ -93,7 +34,7 @@
       </p>
     </section>
 
-    <div class="grid-container">
+    <div class="grid-container--services">
       <div>
         <img src="../assets/1_html_screen.svg" alt="Web Developer" />
         <h3>Web Development</h3>
@@ -145,7 +86,7 @@
       </p>
     </section>
 
-    <div class="grid-container">
+    <div class="grid-container--lastest_work">
       <div>
         <img src="../assets/latest_work/Rectangle 80.jpg" alt="work 1" />
       </div>
@@ -184,11 +125,11 @@
     </div>
 
     <!-- Leave us + Contatct information -->
-    <section class="contact_container" style="background-color: #f0f0f6">
-      <div class="contact_item item1">Leave Us Your Info</div>
-      <div class="contact_item item2">Contact Information</div>
+    <div class="contact_container">
+      <h1 class="contact_item--header item1">Leave Us Your Info</h1>
+      <h1 class="contact_item--header item2">Contact Information</h1>
 
-      <div class="contact_item item3">
+      <div class="contact_item--left_side item3">
         <label for="">Your Full Name ( Required)</label><br />
         <input type="text" /><br /><br />
 
@@ -204,39 +145,35 @@
         <button>SEND MESSAGE</button>
       </div>
 
-      <div class="contact_item item4" style="background-color: #f0f0f6">
-        <section style="background-color: #ffffff">
+      <div class="contact_item--right_side item4">
+        <div class="contact_item--right_side">
           <img src="../assets/last_icons/Ellipse_location.svg" alt="location" />
           <p>Country: <span>Egypt</span></p>
           <p>City: 6 <span>October</span></p>
           <p>Street: <span>el-Shabab</span></p>
-        </section>
+        </div>
         <br />
-        <section style="background-color: #ffffff">
+        <div class="contact_item--right_side">
           <img src="../assets/last_icons/Ellipse_mail.svg" alt="location" />
           <p>Email: <span>abdalla.badr852#gmail.com</span></p>
           <p>Skype: <span>@Bossmail28</span></p>
           <p>Telegram: <span>@Bossmail28</span></p>
-        </section>
+        </div>
         <br />
-        <section style="background-color: #ffffff">
+        <div class="contact_item--right_side">
           <img src="../assets/last_icons/Mobile.svg" alt="location" />
           <p>Support services: <span>15369</span></p>
           <p>Office: <span>+58 (021)356 587 235</span></p>
           <p>Personal: <span>+58 (021)356 587 235</span></p>
-        </section>
+        </div>
         <br />
       </div>
-    </section>
+    </div>
   </body>
 
-  <section>
-    <img src="../assets/bottom_frames/Frame.jpg" alt="">
-    <img src="../assets/bottom_frames/Frame(1).jpg" alt="">
-    <img src="../assets/bottom_frames/Frame(2).jpg" alt="">
-    <img src="../assets/bottom_frames/Frame(3).jpg" alt="">
-  </section>
-  <footer style="text-align: center">
-    <p style="background-color: #ffffff">2021 All Rights Reserved.Ojjomedia</p>
+  <img class="stamps" src="../assets/bottom_frames/Logo.png" alt="" />
+
+  <footer class="footer">
+    <p>2021 All Rights Reserved.Ojjomedia</p>
   </footer>
 </html>

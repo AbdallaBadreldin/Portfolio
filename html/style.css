@@ -1,9 +1,43 @@
+head{
+  background-color: #ffffff;
+}
+.body{
+  background-color: #f0f0f6;
+}
+.body_item1{
+  transform: translate(320px ,422px);
+}
+.body_item2{
+  transform: translate(210px ,96px);
+}
+.body_item3{
+  transform: translate(700px ,400px);
+}
+.body_item4{
+  transform: translate(700px ,100px);
+
+}
+.body_item5{
+  transform: translate(1200px ,400px);
+
+}
+.body_item6{
+  transform: translate(1100px ,100px);
+
+}
+.body_item7{
+  transform: translate(400px ,320px);
+
+}
+
+
 .container {
   background-color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 #hire {
   background-color: #ffb400;
   height: 60px;
@@ -15,6 +49,7 @@
   border-radius: 5%;
   border: 0px;
 }
+
 .image {
   max-width: 100%;
   max-height: 100%;
@@ -35,6 +70,7 @@
   padding-left: 200px;
   padding-right: 200px;
 }
+
 .grid-container--lastest_work {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -49,6 +85,7 @@
   text-align: center;
   padding: 20px 0;
 }
+
 .grid-container--lastest_work > div {
   background-color: f0f0f6;
   gap: 20px;
@@ -64,17 +101,21 @@
   padding: 0px 200px 0px 200px;
   background-color: #f0f0f6;
 }
+
 .contact_container > div {
   text-align: left;
 }
+
 .contact_item--left_side {
   background-color: #ffffff;
   margin-bottom: 30px;
   padding: 25px 25px 0px 25px;
 }
+
 .contact_item--left_side > div {
   background-color: #ffffff;
 }
+
 .contact_item--left_side > input {
   height: 30px;
   width: 100%;
@@ -95,6 +136,7 @@
   padding: 9px;
   background-color: #ffb400;
 }
+
 .contact_item--right_side > div {
   display: inline-flexbox;
   background-color: #ffffff;
@@ -104,6 +146,7 @@
   background-color: #f0f0f6;
   padding: 0px 0px 11px 25px;
 }
+
 .contact_item--right_side > img {
   display: block;
   margin-left: auto;
@@ -116,14 +159,17 @@
   text-align: start;
   /* grid-area: header; */
 }
+
 .item2 {
   text-align: start;
   padding-left: 30px;
   /* grid-area: header;  */
 }
+
 .item3 {
   grid-area: menu;
 }
+
 .item4 {
   grid-area: right;
 }

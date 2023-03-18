@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Portfolio</title>
-    <img class="body_item1" src="../assets/scatterd_shapes/Ellipse 12.png" alt="" />
-    <img class="body_item2" src="../assets/scatterd_shapes/Ellipse 13.png" alt="" />
-    <img class="body_item3" src="../assets/scatterd_shapes/Ellipse 15.png" alt="" />
-    <img class="body_item4" src="../assets/scatterd_shapes/Ellipse 16.png" alt="" />
-    <img class="body_item5" src="../assets/scatterd_shapes/Polygon 1.png" alt="" />
-    <img class="body_item6" src="../assets/scatterd_shapes/Rectangle 51.png" alt="" />
-    <img class="body_item7" src="../assets/scatterd_shapes/Rectangle 52.png" alt="" />
   </head>
 
   <body class="body">
     <div class="container">
       <div class="text">
+        <img
+          class="body_item2"
+          src="../assets/scatterd_shapes/Ellipse 13.png"
+          alt=""
+        />
+        <img
+          class="body_item1"
+          src="../assets/scatterd_shapes/Ellipse 12.png"
+          alt=""
+        />
+        <img
+          class="body_item7"
+          src="../assets/scatterd_shapes/Rectangle 52.png"
+          alt=""
+        />
+
         <h1>
           I’m Abdalla Badr <br /><strong style="color: darkorange"
             >Front-end</strong
@@ -27,6 +36,27 @@
       </div>
 
       <div class="image">
+        <img
+          class="body_item3"
+          src="../assets/scatterd_shapes/Ellipse 15.png"
+          alt=""
+        />
+        <img
+          class="body_item4"
+          src="../assets/scatterd_shapes/Ellipse 16.png"
+          alt=""
+        />
+        <img
+          class="body_item5"
+          src="../assets/scatterd_shapes/Polygon 1.png"
+          alt=""
+        />
+        <img
+          class="body_item6"
+          src="../assets/scatterd_shapes/Rectangle 51.png"
+          alt=""
+        />
+
         <img src="../assets/Your Image 1.jpg" />
       </div>
     </div>
@@ -41,37 +71,37 @@
     </section>
 
     <div class="grid-container--services">
-      <div>
+      <div class="grid-item--services">
         <img src="../assets/1_html_screen.svg" alt="Web Developer" />
         <h3>Web Development</h3>
         <p>Blog, E-Commerce</p>
       </div>
 
-      <div>
+      <div class="grid-item--services">
         <img src="../assets/2_illustrator_screen.svg" alt="UI/UX Designer" />
         <h3>UI/UX Designer</h3>
         <p>Mobile App, Website Design</p>
       </div>
 
-      <div>
+      <div class="grid-item--services">
         <img src="../assets/3_microphone.svg" alt="UI/UX Designer" />
         <h3>sound design</h3>
         <p>Voice Over, Beat Making</p>
       </div>
 
-      <div>
+      <div class="grid-item--services">
         <img src="../assets/4_gaming_screen.svg" alt="UI/UX Designer" />
         <h3>game design</h3>
         <p>Character Design, Props & Objects</p>
       </div>
 
-      <div>
+      <div class="grid-item--services">
         <img src="../assets/5_camera_man.svg" alt="UI/UX Designer" />
         <h3>photography</h3>
         <p>portrait, product photography</p>
       </div>
 
-      <div>
+      <div class="grid-item--services">
         <h3>advertising</h3>
         <p>
           Lorem ipsum dolor sit amet, <br />
@@ -93,91 +123,97 @@
     </section>
 
     <div class="grid-container--lastest_work">
-      <div>
+      <div class="grid-item--lastest_work">
         <img src="../assets/latest_work/Image-0.png" alt="work 1" />
       </div>
 
-      <div>
+      <div class="grid-item--lastest_work">
         <img src="../assets/latest_work/Image-1.jpg" alt="work 2" />
       </div>
 
-      <div>
+      <div class="grid-item--lastest_work">
         <img src="../assets/latest_work/Image-2.jpg" alt="work 3" />
       </div>
 
-      <div>
+      <div class="grid-item--lastest_work">
         <img src="../assets/latest_work/Image-3.jpg" alt="work 4" />
       </div>
 
-      <div>
+      <div class="grid-item--lastest_work">
         <img src="../assets/latest_work/Image-4.jpg" alt="work 5" />
       </div>
 
-      <div>
+      <div class="grid-item--lastest_work">
         <img src="../assets/latest_work/Image-5.jpg" alt="work 6" />
       </div>
 
-      <div>
+      <div class="grid-item--lastest_work">
         <img src="../assets/latest_work/Image-6.jpg" alt="work 7" />
       </div>
 
-      <div>
+      <div class="grid-item--lastest_work">
         <img src="../assets/latest_work/Image-7.jpg" alt="work 8" />
       </div>
 
-      <div>
+      <div class="grid-item--lastest_work">
         <img src="../assets/latest_work/Image.jpg" alt="work 9" />
       </div>
     </div>
 
     <!-- Leave us + Contatct information -->
-    <div class="contact_container">
-      <h1 class="contact_item--header item1">Leave Us Your Info</h1>
-      <h1 class="contact_item--header item2">Contact Information</h1>
+    <div class="contact_container--main">
+      <div class="contact_container">
+        <h1 class="contact_item--header item1">Leave Us Your Info</h1>
 
-      <div class="contact_item--left_side item3">
-        <label for="">Your Full Name ( Required)</label><br />
-        <input type="text" /><br /><br />
+        <div class="contact_item--left_side item3">
+          <label for="">Your Full Name ( Required)</label><br />
+          <input type="text" /><br /><br />
 
-        <label for="">Your Email ( Required)</label><br />
-        <input type="text" /><br /><br />
+          <label for="">Your Email ( Required)</label><br />
+          <input type="text" /><br /><br />
 
-        <label for="">Subject</label><br />
-        <input type="text" /><br /><br />
+          <label for="">Subject</label><br />
+          <input type="text" /><br /><br />
 
-        <label for="">Your Message</label><br />
-        <textarea name="" id="" cols="30" rows="10"></textarea><br /><br />
+          <label for="">Your Message</label><br />
+          <textarea name="" id="" cols="30" rows="10"></textarea><br /><br />
 
-        <button>SEND MESSAGE</button>
+          <button>SEND MESSAGE</button>
+        </div>
       </div>
-
-      <div class="contact_item--right_side item4">
-        <div class="contact_item--right_side">
-          <img src="../assets/last_icons/Ellipse_location.svg" alt="location" />
-          <p>Country: <span>Egypt</span></p>
-          <p>City: 6 <span>October</span></p>
-          <p>Street: <span>el-Shabab</span></p>
+      <div class="contact_container contact_container--right">
+        <h1 class="contact_item--header item2">Contact Information</h1>
+        <div class="contact_item--right_side item4">
+          <div class="contact_item--right_side">
+            <img
+              src="../assets/last_icons/Ellipse_location.svg"
+              alt="location"
+            />
+            <p>Country: <span>Egypt</span></p>
+            <p>City: 6 <span>October</span></p>
+            <p>Street: <span>el-Shabab</span></p>
+          </div>
+          <br />
+          <div class="contact_item--right_side">
+            <img src="../assets/last_icons/Ellipse_mail.svg" alt="location" />
+            <p>Email: <span>abdalla.badr852#gmail.com</span></p>
+            <p>Skype: <span>@Bossmail28</span></p>
+            <p>Telegram: <span>@Bossmail28</span></p>
+          </div>
+          <br />
+          <div class="contact_item--right_side">
+            <img src="../assets/last_icons/Mobile.svg" alt="location" />
+            <p>Support services: <span>15369</span></p>
+            <p>Office: <span>+58 (021)356 587 235</span></p>
+            <p>Personal: <span>+58 (021)356 587 235</span></p>
+          </div>
+          <br />
         </div>
-        <br />
-        <div class="contact_item--right_side">
-          <img src="../assets/last_icons/Ellipse_mail.svg" alt="location" />
-          <p>Email: <span>abdalla.badr852#gmail.com</span></p>
-          <p>Skype: <span>@Bossmail28</span></p>
-          <p>Telegram: <span>@Bossmail28</span></p>
-        </div>
-        <br />
-        <div class="contact_item--right_side">
-          <img src="../assets/last_icons/Mobile.svg" alt="location" />
-          <p>Support services: <span>15369</span></p>
-          <p>Office: <span>+58 (021)356 587 235</span></p>
-          <p>Personal: <span>+58 (021)356 587 235</span></p>
-        </div>
-        <br />
       </div>
     </div>
   </body>
 
-  <img class="stamps" src="../assets/bottom_frames/Logo.png" alt="" />
+  <img class="stamps" src="../assets/bottom_frames/Logo.png" alt="stamps" />
 
   <footer class="footer">
     <p>2021 All Rights Reserved.Ojjomedia</p>

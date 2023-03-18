@@ -169,7 +169,16 @@ head {
 }
 
 .stamps {
-  padding-left: 260px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.stamps>img {
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .footer {
@@ -185,33 +194,35 @@ head {
   .body_item1 {
     transform: translate(30px, 370px);
   }
-  
+
   .body_item2 {
     transform: translate(10px, 10px);
   }
-  
+
   .body_item3 {
     transform: translate(0px, 400px);
   }
-  
+
   .body_item4 {
     transform: translate(10px, 100px);
   }
-  
+
   .body_item5 {
     transform: translate(370px, 420px);
   }
-  
+
   .body_item6 {
     transform: translate(300px, 100px);
   }
-  
+
   .body_item7 {
     transform: translate(200px, 260px);
   }
-.text{
-  padding-left: 10px;
-}
+
+  .text {
+    padding-left: 10px;
+  }
+
   .grid-container--services {
     display: flex;
     flex-direction: row;
@@ -233,21 +244,34 @@ head {
     background-color: #f0f0f6;
     flex-direction: column;
   }
-  .contact_item--right_side{
+
+  .contact_item--right_side {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
     height: fit-content;
   }
-  .contact_item--right_side>div{
+
+  .contact_item--right_side>div {
     width: 45%;
     padding: 10px;
-   height: 100%;
-   flex-direction: column;
+    height: 100%;
+    flex-direction: column;
   }
-.stamps > img{width: 100%;}
-  
+
+  .stamps {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .stamps>img {
+    width: 20%;
+  }
+
 }
 
 /* smart phones */
@@ -256,27 +280,27 @@ head {
   .body_item1 {
     display: none;
   }
-  
+
   .body_item2 {
     display: none;
   }
-  
+
   .body_item3 {
     transform: translate(10px, 10px);
   }
-  
+
   .body_item4 {
     transform: translate(0px, 400px);
   }
-  
+
   .body_item5 {
-    transform: translate(400px, 400px);
+    transform: translate(350px, 400px);
   }
-  
+
   .body_item6 {
     transform: translate(300px, 50px);
   }
-  
+
   .body_item7 {
     display: none;
   }
@@ -346,5 +370,18 @@ head {
     display: flex;
     background-color: #f0f0f6;
     flex-direction: column;
+  }
+
+  .stamps {
+
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+  }
+
+  .stamps>img {
+    margin-left: auto;
+    margin-right: auto;
+
   }
 }
